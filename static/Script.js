@@ -5,6 +5,7 @@ var myApp = angular
 
               myFactory.empList(function(response) {
                 $scope.employees = response.data;
+                console.log($scope.employees);
               });
 
               $scope.employeeView = "static/EmployeeTbl.html";
