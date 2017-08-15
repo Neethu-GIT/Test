@@ -1,0 +1,32 @@
+[
+{
+    "name": "Ben",
+    "gender": "Male",
+    "salary": 55666.76
+},
+{
+    "name": "Hen",
+    "gender": "Female",
+    "salary": 998.77
+},
+{
+    "name": "Ren",
+    "gender": "Female",
+    "salary": 998.77
+},
+{
+    "name": "Sen",
+    "gender": "Female",
+    "salary": 998.77
+},
+{
+    "name": "Ten",
+    "gender": "Male",
+    "salary": 998.77
+},
+{
+    "name": "Men",
+    "gender": "Male",
+    "salary": 998.77
+}
+ ]

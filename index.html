@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Angular></title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+<script src="static/Script.js"></script>
+<script src="static/Factory/factory.js"></script>
+
+<link href="static/Style.css" rel="stylesheet" />
+
+</head>
+
+<body ng-app="myModule">
+<div ng-controller="myController">
+Select View :
+<select ng-model="employeeView">
+<option value ="static/EmployeeTbl.html">Table</option>
+<option value="static/EmployeeList.html">List</option>
+</select>
+<br/> <br/>
+
+<div ng-include ="employeeView"></div>
+</div>
+
+</body>
+</html>
